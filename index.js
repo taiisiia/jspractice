@@ -45,14 +45,12 @@ for (let j = 0; j < squareSize; j++) {
              delete arr[i];
         }
     }
-    
-
 
 //6
 
 arr1 = [1, 2, 3, 4, 5];
-for (let i = 0; i < 6; i++) {
-    arr1[index] = index + 1;
+for (let i = 0; i < 10; i++) {
+    arr1[i] = i + 1;
 }
 
 //8
