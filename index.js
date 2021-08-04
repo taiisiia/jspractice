@@ -69,3 +69,20 @@ console.log (cities.join(" или "));
 //10 
 const numbers = [4, 9, 16, 25, 36, 49];
 const roots = numbers.map(Math.sqrt);
+
+//11
+
+const arr4 = [];
+for (let i=0; i < 10; i++) {
+    arr4.push(Math.floor(Math.random() * 30));
+}
+
+const result = arr4.filter(num => num>10 && num<20);
+console.log(result);
+
+firstNum = (result[0])
+
+console.log (firstNum);
+
+
+
