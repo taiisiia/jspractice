@@ -53,6 +53,13 @@ for (let i = 0; i < 10; i++) {
     arr1[i] = i + 1;
 }
 
+//7
+let users = [];
+
+for (let i = 0; i <= 4; i++) {
+	users[i] = 'user'+(i+1);
+}
+
 //8
 
 const arr3 = [5, 6, 7, 8, 9, 10];
@@ -78,11 +85,12 @@ for (let i=0; i < 10; i++) {
 }
 
 const result = arr4.filter(num => num>10 && num<20);
-console.log(result);
+const indexOfResult = arr4.indexOf(result[0]);
 
-firstNum = (result[0])
+//12 
 
-console.log (firstNum);
+const fruits = ['orange', 'pineapple', 'apple', 'banana', 'lemon'];
 
+const filtered = fruits.filter(value => value.includes('o') || value.includes('p')) 
 
 
