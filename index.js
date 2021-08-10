@@ -53,13 +53,6 @@ for (let i = 0; i < 10; i++) {
     arr1[i] = i + 1;
 }
 
-//7
-let users = [];
-
-for (let i = 0; i <= 4; i++) {
-	users[i] = 'user'+(i+1);
-}
-
 //8
 
 const arr3 = [5, 6, 7, 8, 9, 10];
